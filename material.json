@@ -1,0 +1,279 @@
+{
+  "type": "react",
+  "fusion-site": {
+    "id": 875,
+    "name": "ik-fusion-site",
+    "url": "https://fusion.design/api/v1/sites/875/materials"
+  },
+  "name": "@inkefe/ikice-materials",
+  "description": "映客飞冰物料仓库",
+  "author": "lizh <lizh@inke.cn>",
+  "blocks": [
+    {
+      "name": "antd-filter-table",
+      "title": "基于 ant-design v3.12.1 的表单模板",
+      "categories": [
+        "表格",
+        "数据展示"
+      ],
+      "screenshot": "https://unpkg.com/@inkefe/antd-filter-table@latest/screenshot.png",
+      "description": "基于 ant-design v3.12.1 的表单模板",
+      "homepage": "https://unpkg.com/@inkefe/antd-filter-table@latest/build/index.html",
+      "category": "表格",
+      "source": {
+        "type": "npm",
+        "npm": "@inkefe/antd-filter-table",
+        "version": "1.0.39",
+        "registry": "http://registry.npmjs.com",
+        "author": "wangheliang"
+      },
+      "dependencies": {
+        "@inkefe/components-custom-table": "^1.0.1",
+        "antd": "3.12.1",
+        "axios-service": "^1.3.7",
+        "prop-types": "^15.6.2",
+        "react": "^16.7.0"
+      },
+      "screenshots": [
+        "https://unpkg.com/@inkefe/antd-filter-table@latest/screenshot.png"
+      ],
+      "publishTime": "2019-03-01T08:33:34.267Z",
+      "updateTime": "2020-09-08T12:41:18.243Z"
+    },
+    {
+      "name": "antd-filter-table2",
+      "title": "基于 ant-design v2.x 的表单模板",
+      "categories": [
+        "表格",
+        "数据展示"
+      ],
+      "screenshot": "https://unpkg.com/@inkefe/antd-filter-table2@1.0.18/screenshot.png",
+      "description": "基于 ant-design v2.x 的表单模板",
+      "homepage": "https://unpkg.com/@inkefe/antd-filter-table2@1.0.18/build/index.html",
+      "category": "表格",
+      "source": {
+        "type": "npm",
+        "npm": "@inkefe/antd-filter-table2",
+        "version": "1.0.21",
+        "registry": "http://registry.npmjs.com",
+        "author": "wangheliang"
+      },
+      "dependencies": {
+        "react": "^16.7.0",
+        "prop-types": "^15.6.2",
+        "antd": "2.12.2"
+      },
+      "screenshots": [
+        "https://unpkg.com/@inkefe/antd-filter-table2@1.0.18/screenshot.png"
+      ],
+      "publishTime": "2019-03-05T12:53:06.668Z",
+      "updateTime": "2020-09-08T12:41:15.446Z"
+    },
+    {
+      "name": "hooks-filter-table",
+      "title": "基于 ant-design v3.12.1 的 Hooks 表单模板",
+      "categories": [
+        "表格",
+        "数据展示"
+      ],
+      "screenshot": "https://unpkg.com/@inkefe/hooks-filter-table@latest/screenshot.png",
+      "description": "基于 ant-design v3.12.1 的 Hooks 表单模板",
+      "homepage": "https://unpkg.com/@inkefe/hooks-filter-table@latest/build/index.html",
+      "category": "表格",
+      "source": {
+        "type": "npm",
+        "npm": "@inkefe/hooks-filter-table",
+        "version": "1.0.1",
+        "registry": "http://registry.npmjs.com",
+        "author": "wangheliang"
+      },
+      "dependencies": {
+        "@inkefe/components-custom-table": "^1.0.1",
+        "antd": "3.12.1",
+        "axios-service": "^1.3.7",
+        "prop-types": "^15.6.2",
+        "react": "^16.7.0"
+      },
+      "screenshots": [
+        "https://unpkg.com/@inkefe/hooks-filter-table@latest/screenshot.png"
+      ],
+      "publishTime": "2020-05-01T10:41:39.270Z",
+      "updateTime": "2020-09-08T12:41:30.232Z"
+    },
+    {
+      "name": "ice-filter-table",
+      "title": "基于 ice-design v0.x 的表单模板",
+      "categories": [
+        "表格",
+        "数据展示"
+      ],
+      "screenshot": "https://unpkg.com/@inkefe/ice-filter-table@1.0.21/screenshot.png",
+      "description": "基于 ice-design v0.x 的表单模板",
+      "homepage": "https://unpkg.com/@inkefe/ice-filter-table@1.0.21/build/index.html",
+      "category": "表格",
+      "source": {
+        "type": "npm",
+        "npm": "@inkefe/ice-filter-table",
+        "version": "1.0.26",
+        "registry": "http://registry.npmjs.com",
+        "author": "wangheliang"
+      },
+      "dependencies": {
+        "react": "^16.7.0",
+        "prop-types": "^15.6.2",
+        "@icedesign/base": "^0.2.6",
+        "@icedesign/container": "^0.1.8",
+        "@icedesign/form-binder": "^1.0.3"
+      },
+      "screenshots": [
+        "https://unpkg.com/@inkefe/ice-filter-table@1.0.21/screenshot.png"
+      ],
+      "publishTime": "2019-02-21T08:08:08.055Z",
+      "updateTime": "2020-09-08T12:54:43.644Z"
+    },
+    {
+      "name": "antd-filter-table",
+      "title": "基于 ant-design redux v3.12.1 的表单模板",
+      "categories": [
+        "表格",
+        "数据展示"
+      ],
+      "screenshot": "https://unpkg.com/@inkefe/antd-redux-filter-table@latest/screenshot.png",
+      "description": "基于 ant-design redux v3.12.1 的表单模板",
+      "homepage": "https://unpkg.com/@inkefe/antd-redux-filter-table@latest/build/index.html",
+      "category": "表格",
+      "source": {
+        "type": "npm",
+        "npm": "@inkefe/antd-redux-filter-table",
+        "version": "1.0.4",
+        "registry": "http://registry.npmjs.com",
+        "author": "cuishijie"
+      },
+      "dependencies": {
+        "antd": "3.12.1",
+        "axios-service": "^1.3.7",
+        "prop-types": "^15.6.2",
+        "puppeteer": "^2.1.1",
+        "react": "^16.7.0"
+      },
+      "screenshots": [
+        "https://unpkg.com/@inkefe/antd-redux-filter-table@latest/screenshot.png"
+      ],
+      "publishTime": "2020-04-08T01:41:56.877Z",
+      "updateTime": "2020-09-08T12:41:16.858Z"
+    },
+    {
+      "name": "antd-redux-hook-table",
+      "title": "基于 ant-design v4.xx redux hook 的表单模板",
+      "categories": [
+        "表格",
+        "数据展示"
+      ],
+      "screenshot": "https://unpkg.com/@inkefe/antd-redux-hook-table@latest/screenshot.png",
+      "description": "基于 ant-design v4.xx redux hook 的表单模板",
+      "homepage": "https://unpkg.com/@inkefe/antd-redux-hook-table@latest/build/index.html",
+      "category": "表格",
+      "source": {
+        "type": "npm",
+        "npm": "@inkefe/antd-redux-hook-table",
+        "version": "1.0.1",
+        "registry": "http://registry.npmjs.com",
+        "author": "cuishijie"
+      },
+      "dependencies": {
+        "antd": "^4.4.1",
+        "axios-service": "^1.3.7",
+        "prop-types": "^15.6.2",
+        "puppeteer": "^2.1.1",
+        "react": "^16.14.0"
+      },
+      "screenshots": [
+        "https://unpkg.com/@inkefe/antd-redux-hook-table@latest/screenshot.png"
+      ],
+      "publishTime": "2021-05-21T03:55:03.455Z",
+      "updateTime": "2021-05-21T06:34:51.626Z"
+    }
+  ],
+  "components": [
+    {
+      "name": "CustomTable",
+      "title": "CustomTable",
+      "category": "component",
+      "description": "CustomTable",
+      "homepage": "https://unpkg.com/@inkefe/components-custom-table@1.0.2/build/index.html",
+      "categories": [
+        "component"
+      ],
+      "source": {
+        "type": "npm",
+        "npm": "@inkefe/components-custom-table",
+        "version": "1.0.2",
+        "registry": "https://registry.npmjs.org",
+        "author": "wanghl@inke.cn"
+      },
+      "dependencies": {
+        "prop-types": "^15.5.8"
+      },
+      "screenshot": "",
+      "screenshots": "",
+      "publishTime": "2019-10-23T08:49:04.756Z",
+      "updateTime": "2020-09-08T12:41:22.085Z"
+    },
+    {
+      "name": "SearchSelect",
+      "title": "SearchSelect",
+      "category": "component",
+      "description": "SearchSelect",
+      "homepage": "https://unpkg.com/@inkefe/components-search-select@1.0.7/build/index.html",
+      "categories": [
+        "component"
+      ],
+      "source": {
+        "type": "npm",
+        "npm": "@inkefe/components-search-select",
+        "version": "1.0.7",
+        "registry": "https://registry.npmjs.org",
+        "author": "wanghl@inke.cn"
+      },
+      "dependencies": {
+        "pinyin-engine": "^1.1.0",
+        "prop-types": "^15.5.8"
+      },
+      "screenshot": "",
+      "screenshots": "",
+      "publishTime": "2020-06-03T08:34:14.401Z",
+      "updateTime": "2020-09-08T12:41:23.416Z"
+    }
+  ],
+  "scaffolds": [
+    {
+      "builder": "ice-scripts",
+      "name": "next-lite",
+      "title": "基础模板",
+      "categories": [
+        "基础模板"
+      ],
+      "screenshot": "https://unpkg.com/@icedesign/next-lite-scaffold/screenshot.png",
+      "description": "用于自定义模板",
+      "homepage": "https://unpkg.com/@icedesign/next-lite-scaffold@1.0.0/build/index.html",
+      "category": "基础模板",
+      "source": {
+        "type": "npm",
+        "npm": "@icedesign/next-lite-scaffold",
+        "version": "1.0.0",
+        "registry": "https://registry.npmjs.org"
+      },
+      "dependencies": {
+        "@alifd/next": "^1.10.1",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-router-dom": "^4.2.2"
+      },
+      "screenshots": [
+        "https://unpkg.com/@icedesign/next-lite-scaffold/screenshot.png"
+      ],
+      "publishTime": "2018-12-09T13:00:25.372Z",
+      "updateTime": "2021-01-06T02:44:49.591Z"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@icedesign/ice-antd-scaffold",
+  "version": "0.1.0",
+  "description": "Ant Design and icejs scaffold, use TypeScript.",
+  "dependencies": {
+    "@alifd/next": "^1.23.24",
+    "@ant-design/icons": "^4.0.2",
+    "@ant-design/pro-layout": "^6.5.1",
+    "antd": "^4.0.0",
+    "echarts": "^5.2.0",
+    "prop-types": "^15.5.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@iceworks/spec": "^1.0.1",
+    "@inkefe/components-custom-table": "^1.0.2",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "build-plugin-antd": "^0.1.0",
+    "build-plugin-esbuild": "^1.6.2",
+    "build-plugin-moment-locales": "^0.1.0",
+    "eslint": "^7.30.0",
+    "ice.js": "^1.0.0",
+    "ik-utils": "git+ssh://git@code.inke.cn:opd/fe-aws/modules/ik-utils.git",
+    "stylelint": "^13.1.0"
+  },
+  "scripts": {
+    "dev": "icejs start --mode local",
+    "start": "icejs start --mode local",
+    "build": "icejs build",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --cache --ext .js,.jsx ./",
+    "stylelint": "stylelint ./**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ice-lab/react-materials/tree/master/scaffolds/antd-lite"
+  },
+  "private": true,
+  "originTemplate": "@icedesign/ice-antd-scaffold"
+}
