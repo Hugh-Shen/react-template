@@ -31,6 +31,8 @@ export default function BasicLayout({ children, location }) {
   return (
     <ProLayout
       title="小进步"
+      fixSiderbar
+      fixedHeader
       style={{
         minHeight: '100vh',
       }}
@@ -41,7 +43,7 @@ export default function BasicLayout({ children, location }) {
         <Header />
       )}
       menuDataRender={() => loopMenuItem(mergeRouterConfig())}
-      menuItemRender={(item, defaultDom) => {
+      menuItemRender={(item: { path: any; }, defaultDom: any) => {
         if (!item.path) {
           return defaultDom;
         }
@@ -66,7 +68,7 @@ export default function BasicLayout({ children, location }) {
       )}
     >
       <div style={{ minHeight: '60vh' }}>
-        <Auth authKey={ currentRoute?.auth } fallback='没有权限'>
+        <Auth authKey={currentRoute?.auth} fallback='没有权限' children={undefined}>
           { children }
         </Auth>
       </div>
